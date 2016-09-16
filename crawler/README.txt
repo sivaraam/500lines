@@ -1,5 +1,7 @@
 Author: Guido van Rossum
+
 Project: Web crawler
+
 Requirements: Python 3.4, or 3.3 + asyncio
 
 This is a web crawler. You give it a URL and it will crawl that
