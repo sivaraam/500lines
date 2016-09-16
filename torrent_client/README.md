@@ -1,5 +1,7 @@
 Author: Kresten Krab Thorup
+
 Project: Torrent Client
+
 Requirements: Erlang
 
 This directory holds a simple torrent client in Erlang. The client only works
@@ -13,10 +15,12 @@ The easiest way to get Erlang, is to download it from www.erlang-solutions.org.
 Don't use the Erlang distributed with Ubuntu.
 
 compile:
-  ./rebar get-deps
-  ./rebar compile
+
+    ./rebar get-deps
+    ./rebar compile
 
 run:
-  erl -pa ebin -pa deps/*/ebin
-  1> torrent_client:download("../path/to.torrent")
+
+    erl -pa ebin -pa deps/*/ebin
+    1> torrent_client:download("../path/to.torrent")
 
