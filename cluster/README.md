@@ -1,5 +1,7 @@
 Author: Dustin J. Mitchell
+
 Project: Cluster (a working title!)
+
 Requirements: Python
 
 This directory holds a simple implementation of a replicated state machine
