@@ -1,5 +1,7 @@
 Author: Greg Wilson
+
 Project: Web Server
+
 Requirements: Python
 
 This directory holds a simple web server in Python, which I am
